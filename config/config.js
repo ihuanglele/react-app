@@ -1,7 +1,13 @@
 export default {
     routes: [{
         path: '/',
-        component: './Hello',
+        component: '../layout',
+        routes: [
+            {
+                path: 'hello',
+                component: './Hello'
+            }
+        ]
     }],
 
     plugins: [
