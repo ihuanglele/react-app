@@ -1,4 +1,12 @@
 
-.normal {
-    background: #B8F279;
+.logo {
+    color: #888;
+    font-size: 14px;
+    padding: 30px 0 18px 0;
+    text-align: center;
+}
+
+.searchLoading {
+    text-align: center;
+    margin: 10px auto;
 }
