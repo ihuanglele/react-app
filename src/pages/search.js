@@ -8,7 +8,7 @@ export default class Hello extends React.Component {
     isSearch: false,
   };
   onChange = (value) => {
-    this.setState({value})
+    // this.setState({value})
   };
   search = (v) => {
     console.log(v);
@@ -30,7 +30,8 @@ export default class Hello extends React.Component {
           onBlur={this.search('blur')}
           // onCancel={() => console.log('onCancel')}
           showCancelButton={false}
-          onChange={this.onChange}/>
+          // onChange={this.onChange}
+        />
 
         <WingBlank/>
 
